@@ -1,0 +1,261 @@
+<!--Made by: Tron Baraku-->
+<!doctype html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="..//other/styles.css" > <!--Imported the external css-->
+
+        <title>Tron Baraku</title> <!--Added a title for the tab-->
+
+        <style>
+            body{font-family: cursive; /*Changed the font of the body*/
+                margin:0; /*Removed the margin of the body so that the content fills the page*/
+                background-color:darkslateblue
+            }
+
+            .topnav{font-family: sans-serif;} /*Changed the font of the navigation so that it is the same everywhere*/
+
+            h2{text-align: center; /*Aligned the h2 tags in the center*/
+                color:white; /*Changed the color of the h2 tags to white*/
+            }
+
+            .row h2{color:black;} /*Changed the color of h2 tags inside the class row to black*/
+
+            /*Introduction card starts here*/
+            .card {
+                width: 40%; /*Set the width of hte card to 40% of the page*/
+                position:relative; /*Changed the position to relative so that it can be aligned*/
+                left:30%; /*Moved the card 30% from the left*/
+            }
+
+            .container {
+                padding: 2px 16px; /*Added padding to the card*/
+            }
+
+            .theBackground{
+                background:url(..//images/barakuPersonalBackgroundBackground.jpg) center; /*Added a background image to the page and centered it*/
+                min-height: 800px; /*Changed the minimum height of the background image to extend it*/
+            }
+
+            .introduction{
+                text-align: center; /*Aligned the text to the center*/
+                background:url(..//images/barakuPersonalBackground.jpg) center; /*Added a centered background image to the introduction card*/
+                background-size:cover; /*Changed the background size to cover the entire card*/
+                color:white; /*Changed the font color to white*/
+                display:inline-block;
+                position:relative; /*Changed the position to relative so that it can be moved*/
+                left:550px;
+                top:80px;
+
+            }
+            .introduction h1{
+                font-size:50px; /*Increased the font size of the h1 tags inside the introduction class*/
+            }
+            /*introduction ends here*/
+
+            /*About Me cards start here*/
+            .twoColumns {
+                float: left; /*Floated the card to the left to add another card to the right*/
+                width: 50%; /*Changed the width of the cards to 50% of the page*/
+                box-sizing: border-box; /*Changed the box sizing behavior*/
+                min-height:450px;
+                text-align: center;
+            }
+            .twoColumns p{font-size: 17px;}
+
+            /* Clear floats after the columns */
+            .twoRows:after {
+                content: "";
+                display: table;
+                clear: both;
+            }
+            /*About me cards end here*/
+
+
+            /*Music albums start here*/
+            /* Create three equal columns that floats next to each other */
+            .column {
+                float: left;
+                width: 33.33%;
+                padding: 10px;
+                box-sizing: border-box;
+            }
+
+            /* Clear floats after the columns */
+            .row:after {
+                content: "";
+                display: table;
+                clear: both;
+            }
+
+
+
+        </style>
+    </head>
+    <body>
+        <div class="topnav"> <!--Start of the navigation-->
+
+            <a href="..//index/index.html">Index</a> <!--Used anochor and href to link to other pages-->
+
+            <div class="dropdown"> <!--Added dropdown menus-->
+                <button class="dropbutton"><a href="..//html/England_Baraku.html">England</a>
+                </button>
+                <div class="dropdown-content">
+                    <a href="../html/Adventure_Baraku.html">Adventurist</a>
+                    <a href="../html/History_Baraku.html">Historian</a>
+                    <a href="../html/Recreation_Baraku.html">Recreationalist</a>
+                    <a href="../html/Photograph_Baraku.html">Photographer</a>
+                </div>
+            </div>
+
+            <div class="dropdown">
+                <button class="dropbutton"><a href="..//html/Italy-Marino.html">Italy</a>
+                </button>
+                <div class="dropdown-content">
+                    <a href="..//html/Adventure-Marino.html">Adventurist</a>
+                    <a href="..//html/History-Marino.html">Historian</a>
+                    <a href="..//html/Recreation-Marino.html">Recreationalist</a>
+                    <a href="..//html/Photograph-Marino.html">Photographer</a>
+                </div>
+            </div>
+
+            <div class="dropdown">
+                <button class="dropbutton"><a href="..//html/US-Chase.html">U.S</a>
+                </button>
+                <div class="dropdown-content">
+                    <a href="..//html/Adventure-Chase.html">Adventurist</a>
+                    <a href="..//html/History-Chase.html">Historian</a>
+                    <a href="..//html/Recreation-Chase.html">Recreationalist</a>
+                    <a href="..//html/Photograph-Chase.html">Photographer</a>
+                </div>
+            </div>
+
+            <div class="dropdown">
+                <button class="dropbutton"><a href="..//html/canada_jon.html">Canada</a>
+                </button>
+                <div class="dropdown-content">
+                    <a href="../html/adventure_jon.html">Adventurist</a>
+                    <a href="../html/history_jon.html">Historian</a>
+                    <a href="../html/recreation_jon.html">Recreationalist</a>
+                    <a href="../html/photograph_jon.html">Photographer</a>
+                </div>
+            </div>
+
+            <a href="..//CW-Quiz/index.html">Quiz</a>
+
+            <div class="dropdown">
+                <button class="dropbutton"><a>About Us</a>
+                </button>
+                <div class="dropdown-content">
+                    <a href="..//students/BARAKU.html">Baraku</a>
+                    <a href="..//students/OSMANLLARI.html">Osmanllari</a>
+                    <a href="..//students/TAYLOR.html">Taylor</a>
+                    <a href="..//students/JON.html">Pushkolli</a>
+                </div>
+            </div>
+        </div> <!--End of the navigation-->
+
+
+        <br> <!--Used a break to add space between content-->
+        <div class="theBackground"> <!--Organized everything in divs to structure the page-->
+            <div class="introduction">
+                <br><br>
+                <h1>Tron Baraku</h1> <!--Header tag with highest importance-->
+
+                <div class="card">
+                    <img src="..//images/barakuAvatar5.png" alt="Avatar" style="width:100%"><!--Used the img src tag to import an image that covers 100% of the width available-->
+                    <div class="container">
+                        <p>Get to know me!</p><!--Used the paragraph tag to add content-->
+                    </div>
+                </div>
+                <div class="general-info">
+                    <h2>General Info:</h2>
+                    <p>Age: 18</p>
+                    <p>Birthday: 21 May 2002</p>
+                    <p>Studies: BSc Computer Science</p>
+                    <p>Nationality: Albanian</p>
+                </div>
+            </div>
+        </div>
+        <br><br><br><br>
+
+
+        <div class="twoRows">
+            <div class="twoColumns" style="background-color:#336699;"><!--Changed the background color using inline css-->
+                <h2>About Me</h2><br>
+                <p>My favorite food is Pizza</p>
+                <p>I enjoy watching and playing football</p>
+                <p>I used to play semi-pro and I support FC Barcelona</p><br>
+                <p>I got introduced to computer science in High-School</p>
+                <p>My favorite computer game is CS:GO</p>
+                <p>I have listed below some of my favourite albums and shows</p>
+            </div>
+            <div class="twoColumns" style="background-color:#2d5986;"><!--Changed the background color using inline css-->
+                <h2>About My Work</h2><br>
+                <p>My responsibility was to develop the pages about England</p>
+                <p>In addition to that I developed the Index page</p><br>
+                <p>Furthermore, I designed the navigation of the website</p>
+                <p>As part of the "HyperTexters" team, my role was to organize the group</p>
+            </div>
+        </div>
+        <br><br><br>
+
+
+        <hr>
+        <h2>Favorite Music Albums</h2>
+
+        <br><br>
+        <div class="row">
+            <div class="column" style="background-color:#b3b3ff;">
+                <h2>good kid, m.A.A.d city</h2>
+                <img src="..//images/barakuAlbum1.jpg" alt="Avatar" style="width:100%">
+            </div>
+            <div class="column" style="background-color:#9999ff;">
+                <h2>Man on the Moon II</h2>
+                <img src="..//images/barakuAlbum2.jpg" alt="Avatar" style="width:100%">
+            </div>
+            <div class="column" style="background-color:#8080ff;">
+                <h2>Swimming</h2>
+                <img src="..//images/barakuAlbum3.jpg" alt="Avatar" style="width:100%">
+            </div>
+        </div>
+        <br><br><br>
+
+        <hr>
+
+        <h2>Favorite TV Shows</h2>
+
+        <div class="row">
+            <div class="column" style="background-color:#cc99ff">
+                <h2>Vikings</h2>
+                <img src="..//images/barakuShow1.jpg" alt="Avatar" style="width:100%">
+            </div>
+            <div class="column" style="background-color:#bf80ff">
+                <h2>Peaky Blinders</h2>
+                <img src="..//images/barakuShow2.jpg" alt="Avatar" style="width:100%">
+            </div>
+            <div class="column" style="background-color:#b366ff">
+                <h2>Sherlock</h2>
+                <img src="..//images/barakuShow3.jpg" alt="Avatar" style="width:100%">
+            </div>
+        </div>
+
+
+        <div class="footer">
+            <div class="inner-footer">
+                <div class="quick-links">
+                    <ul>
+                        <li class="quick-items"><a href="../index/index.html">Home</a></li>
+                        <li class="quick-items"><a href="..//students/BARAKU.html">Tron</a></li>
+                        <li class="quick-items"><a href="..//students/OSMANLLARI.html">Marino</a></li>
+                        <li class="quick-items"><a href="..//students/TAYLOR.html">Chase</a></li>
+                        <li class="quick-items"><a href="..//students/JON.html">Jon</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="outer-footer">
+            <p>The HyperTexters © 2020</p>
+        </div>
+
+    </body>
+</html>

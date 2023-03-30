@@ -1,0 +1,454 @@
+<!--Made by: Tron Baraku-->
+<!DOCTYPE HTML>
+
+<html>
+    <head>
+        <title>England - Historian</title>
+        <link rel="stylesheet" type="text/css" href="..//other/styles.css">
+        <style>
+            body{
+                margin: 0;
+                padding: 0;
+                font-family: sans-serif;
+                background-color:#d2a679;
+            }
+            .hero-image{
+                height: 600px;
+                width:100%;
+                background: url(..//images/barakuHistoryBackgroundResized.jpeg) no-repeat center;
+                background-position:center;
+                background-size:cover:
+            }
+            .container{
+                position:absolute;
+                top:20%;
+                left:34%;
+                font-weight:700;
+                color:saddlebrown;
+                text-align: center;
+
+            }
+            .container h1{
+                font-size:72px;
+                letter-spacing: 0,2em;
+            }
+            .container h1 span{
+                border:10px solid white;
+                padding:6px;14px;
+                display:inline-block;
+            }
+            .container p{font-style:italic;font-size:20px; text-shadow: 0 0 10px black;}
+
+            /*Card starts here*/
+            h2{
+                text-transform: uppercase;
+                text-align:center;
+                letter-spacing:2px;
+            }
+            h3{
+                text-align:center;
+            }
+            .contentContainer{
+                max-width:1170px;
+                width:100%;
+                margin: 0 auto;
+                display: flex;
+                text-align: justify;
+                background-color:lightgoldenrodyellow;
+
+            }
+            .column{
+                margin: 0 15px 25px;
+                box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+                border-radius:10px;
+                flex-basis:33%;
+            }
+            .card{
+                padding: 15px 25px;
+            }
+            .contentContainerBackground{background-color:#d2a679;
+                padding-top:10px;
+            }
+
+            /*            Slideshow starts here*/
+
+            .mySlides {display: none}
+            img {vertical-align: middle;}
+
+            /* Slideshow container */
+            .slideshow-container {
+                max-width: 1000px;
+                position: relative;
+                margin: auto;
+            }
+
+            /* Next and previous buttons */
+            .prev, .next {
+                cursor: pointer;
+                position: absolute;
+                top: 50%;
+                width: auto;
+                padding: 16px;
+                margin-top: -22px;
+                color: white;
+                font-weight: bold;
+                font-size: 18px;
+                transition: 0.6s ease;
+                border-radius: 0 3px 3px 0;
+                user-select: none;
+            }
+
+            /* Position the next button */
+            .next {
+                right: 0;
+                border-radius: 3px 0 0 3px;
+            }
+
+            /* Background on hover  */
+            .prev:hover, .next:hover {
+                background-color: rgba(0,0,0,0.8);
+            }
+
+            /* Caption text */
+            .text {
+                color: #f2f2f2;
+                font-size: 20px;
+                padding: 8px;
+                position: absolute;
+                bottom: 8px;
+                width: 100%;
+                text-align: center;
+                text-shadow: 0 0 10px black;
+            }
+
+            /* Numbers top left */
+            .numbertext {
+                color: #f2f2f2;
+                font-size: 12px;
+                padding: 8px 12px;
+                position: absolute;
+                top: 0;
+            }
+
+            /* Dots */
+            .dot {
+                cursor: pointer;
+                height: 15px;
+                width: 15px;
+                margin: 0 2px;
+                background-color: #bbb;
+                border-radius: 50%;
+                display: inline-block;
+                transition: background-color 0.6s ease;
+            }
+
+            .active, .dot:hover {
+                background-color: #717171;
+            }
+
+            /*            Slideshow ends here*/
+
+
+            /*Where to stay card starts here*/
+            .whereToStay{
+                width:100%;
+                display:flex;
+
+            }
+            .columnStay{
+                flex-basis:50%;
+                padding:20px;
+            }
+            .textOnly{
+                text-align:center;
+            }
+            .columnStay img{
+                border-radius: 50%;
+            }
+
+            /*What to eat card starts here*/
+
+            .whatToEat{
+                width:100%;
+                display:flex;
+
+            }
+            .columnEat{
+                flex-basis:50%;
+                padding:20px;
+                text-align:center;
+            }
+            .columnEat img {
+                border-radius: 50%;
+            }
+            .whatToEatBackground{
+                background-color:lightyellow;
+                padding:20px;
+            }
+            .cost{
+                text-align:center;
+            }
+
+        </style>
+    </head>
+
+    <body>
+
+        <div class="topnav">
+
+            <a href="..//index/index.html">Index</a>
+
+            <div class="dropdown">
+                <button class="dropbutton"><a href="..//html/England_Baraku.html">England</a>
+                </button>
+                <div class="dropdown-content">
+                    <a href="../html/Adventure_Baraku.html">Adventurist</a>
+                    <a href="../html/History_Baraku.html">Historian</a>
+                    <a href="../html/Recreation_Baraku.html">Recreationalist</a>
+                    <a href="../html/Photograph_Baraku.html">Photographer</a>
+                </div>
+            </div>
+
+            <div class="dropdown">
+                <button class="dropbutton"><a href="../html/Italy-Marino.html">Italy</a>
+                </button>
+                <div class="dropdown-content">
+                    <a href="../html/Adventure-Marino.html">Adventurist</a>
+                    <a href="../html/History-Marino.html">Historian</a>
+                    <a href="../html/Recreation-Marino.html">Recreationalist</a>
+                    <a href="Photograph-Marino.html">Photographer</a>
+                </div>
+            </div>
+
+            <div class="dropdown">
+                <button class="dropbutton"><a href="../html/US-Chase.html">U.S</a>
+                </button>
+                <div class="dropdown-content">
+                    <a href="../html/Adventure-Chase.html">Adventurist</a>
+                    <a href="../html/History-Chase.html">Historian</a>
+                    <a href="../html/Recreation-Chase.html">Recreationalist</a>
+                    <a href="../html/Photograph-Chase.html">Photographer</a>
+                </div>
+            </div>
+
+            <div class="dropdown">
+                <button class="dropbutton"><a href="../html/canada_jon.html">Canada</a>
+                </button>
+                <div class="dropdown-content">
+                    <a href="../html/adventure_jon.html">Adventurist</a>
+                    <a href="../html/history_jon.html">Historian</a>
+                    <a href="../html/recreation_jon.html">Recreationalist</a>
+                    <a href="../html/photograph_jon.html">Photographer</a>
+                </div>
+            </div>
+
+            <a href="..//CW-Quiz/index.html">Quiz</a>
+
+            <div class="dropdown">
+                <button class="dropbutton"><a>About Us</a>
+                </button>
+                <div class="dropdown-content">
+                    <a href="../students/BARAKU.html">Baraku</a>
+                    <a href="#">Osmanllari</a>
+                    <a href="#/">Taylor</a>
+                    <a href="#">Pushkolli</a>
+                </div>
+            </div>
+        </div>
+
+
+        <br><br>
+
+
+        <div class="hero-image">
+            <div class="container">
+                <h1><span>The Historian</span></h1>
+                <span class="description"><p>Welcome to your next historical landmark!</p></span>
+            </div>
+        </div>
+
+        <div class="contentContainerBackground">
+            <h2>Places to visit:</h2>
+            <div class="contentContainer">
+
+                <br><br>
+                <div class="columns">
+                    <div class="card card1">
+
+                        <h3>Stonehenge</h3>
+                        <p>One of the most mysterious monuments in existance, built around 5000 years ago. Located in Willtshire, this monument is the spawn of countless theories and tales. Since there are no written records, the reason of construction remains a mystery. One of the most popular theories is that the stones were built by the Druids, high priests of the Celts, for sacrificial ceremonies. These stones weight from 4 to 30 tons and were dragged from 40 to 300 kilometers. This prehistoric monument attracts over a million visitors each year and is part of the UNESCO World Herritage Site.</p>
+                        <p class="cost">9:30 AM - 5:00 PM (22€)</p>
+                    </div>
+                </div>
+
+                <div class="columns">
+                    <div class="card card2">
+                        <h3>Tower of London</h3>
+                        <p>The Tower of London was built by William the Conqueror in 1066 as a fortification near the Thames River. Over the years it has served as a royal palace, fortress and prison. The Tower took 20 years of construction and stretches for more than 7 hecktares. Be part of the 2 million yearly visitors by taking a tour that includes the Bloody Tower, Medieval Palace, White Tower, The Crown Jewels and much more!
+                        </p>
+                        <p class="cost">10:00 AM - 3:00 PM (28€)</p>
+                    </div>
+                </div>
+
+                <div class="columns">
+                    <div class="card card3">
+                        <h3>British Museum</h3>
+                        <p>Discover two million years of culture and history in one of the largest museums in the world! With a collection of over eight million works, the museum represents the history of human culture from its beginnings to the present. The British Museum was established in 1753 and first opened to the public six years later. British colonisation aided its expansion over the years and it contains works from six continents. Some collections are available online through their interactive website!
+                        </p>
+                        <p class="cost">10:00 AM - 5:00 PM (Free)</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <br><br><br>
+        <!--Slidshow starts here-->
+
+
+        <div class="slideshow-container">
+
+            <div class="mySlides">
+                <div class="numbertext">1 / 3</div>
+                <img src="..//images/barakuStonehengeImage.jpg" style="width:100%;height:603px;">
+                <div class="text">The Stonehenge</div>
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">2 / 3</div>
+                <img src="..//images/barakuTowerLondonImage.jpg" style="width:100%;height:603px;">
+                <div class="text">Tower of London</div>
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">3 / 3</div>
+                <img src="..//images/barakuBritishMuseumImage.jpg" style="width:100%;height:603px;">
+                <div class="text">British Museum</div>
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        </div>
+        <br>
+
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+
+        <br><br><br>
+        <!--Slideshow ends here-->
+
+
+
+        <br><br>
+        <h2>Where to stay</h2>
+        <div class="whereToStay">
+
+            <div class="columnStay ">
+                <div class="stayCard textOnly">
+
+                    <h3>Castle Hotel</h3> <br><br>
+
+                    <p>Take the opportunity to stay at one of the many castles turned into hotels in England, as surreal as that sounds! </p> <br><br>
+                    <p>Sleeping in a castle is an unforgettable stay that  will take you back hundreds of years.</p> <br><br>
+                    <p>"Coombe Abbey Hotel" is a hotel built on a preserved abbey that dates back to the 12th-century and offers rooms for around 136€, breakfast included.</p>
+
+                </div>
+            </div>
+
+
+            <div class="columnStay imageOnly">
+                <div class="stayCard">
+                    <img src="..//images/barakuHistoryCastle.jpeg" width="700" >
+                </div>
+            </div>
+
+        </div>
+
+
+
+        <div class="whatToEatBackground">
+            <h2>What to eat:</h2>
+
+
+            <div class="whatToEat">
+
+                <div class="columnEat imageOnlyEat">
+                    <div class="eatCard">
+                        <img src="..//images/barakuHistoryBreakfast.jpg" width="700" >
+                    </div>
+                </div>
+
+
+                <div class="columnEat ">
+                    <div class="eatCard textOnlyEat">
+
+                        <h3>Traditional English Breakfast</h3> <br><br><br>
+                        <p>Start the day with a full traditional English breakfast that typically includes bacon, sausages, fried egss, toast, tomatoes and baked beans.</p> <br><br>
+                        <p>The English have enjoyed this delicious breakfast for centuries with the belief that a full breakfast is necessary to get through the day.</p> <br><br>
+                        <p>This calore-rich breakfast is popular all across England and can be served in almost every corner. </p>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="footer">
+            <div class="inner-footer">
+                <div class="quick-links">
+                    <ul>
+                        <li class="quick-items"><a href="../index/index.html">Home</a></li>
+                        <li class="quick-items"><a href="..//students/BARAKU.html">Tron</a></li>
+                        <li class="quick-items"><a href="..//students/OSMANLLARI.html">Marino</a></li>
+                        <li class="quick-items"><a href="..//students/TAYLOR.html">Chase</a></li>
+                        <li class="quick-items"><a href="..//students/JON.html">Jon</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="outer-footer">
+            <p>The HyperTexters © 2020</p>
+        </div>
+
+
+
+
+        <script>
+
+            var slideIndex = 1;
+            showSlides(slideIndex);
+
+            function plusSlides(n) {
+                showSlides(slideIndex += n);
+            }
+
+            function currentSlide(n) {
+                showSlides(slideIndex = n);
+            }
+
+            function showSlides(n) {
+                var i;
+                var slides = document.getElementsByClassName("mySlides");
+                var dots = document.getElementsByClassName("dot");
+                if (n > slides.length) {slideIndex = 1}
+                if (n < 1) {slideIndex = slides.length}
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                }
+                for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                }
+                slides[slideIndex-1].style.display = "block";
+                dots[slideIndex-1].className += " active";
+            }
+
+        </script>
+    </body>
+</html>
